@@ -17,7 +17,7 @@ This repository contains a C program that implements two search algorithms: sequ
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Pras7616533/Academic_Project/tree/main/C_ project/Search.git
    ```
 
 2. **Compile the Program**:
