@@ -1,6 +1,6 @@
 # C Project
 
-This repository contains a C project developed as part of an academic assignment. The project aims to [briefly describe the main goal or functionality of the project].
+Welcome to the repository for my academic project involving C programming. This project is part of my coursework at BL Patil Polytechnic Khopoli, focusing on developing practical programming skills in the C language.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ To run this project, follow these steps:
    ```
 3. Compile the source code:
    ```bash
-   gcc -o output main.c
+   gcc -o output file_name
    ```
 
 ## Usage
@@ -62,7 +62,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or suggestions, please reach out to [Prashant Deshmukh](mailto:your-email@example.com).
+For any questions or suggestions, please reach out to [Prashant Deshmukh](mailto:prashdesh555@gmail.com).
 
 ---
 
