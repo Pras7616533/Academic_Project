@@ -11,10 +11,10 @@ void display(int a[], int n)
 
 int main(void)
 {
-  int a[50], n, pass, i, j, temp = 0;
-  setbuf (stdout, NULL);
+  int n, pass, i, j, temp = 0;
   printf("Enter the value of n:\n");
   scanf("%d", &n);
+  int a[n];
   printf("Enter n elements:\n");
   for (i=0; i < n; i++)
   {
