@@ -18,16 +18,22 @@ void main()
       case 1: 
         printf("\n Enter No. of elements : ");
         scanf("%d", &n);
-        printf("\n Enter a list of %d elements : ",n); for(i=0;i<n;i++)
-        scanf("%d", &a[i]);
+        printf("\n Enter a list of %d elements : ",n); 
+        for(i=0;i<n;i++)
+        {
+          scanf("%d", &a[i]);
+        }
         printf("\n Enter the the element to be searched: ");
         scanf("%d", &key);
         result=linsearch(a, n, key);
         if(result==-1) 
         {           
-          printf("\n Not found : "); else
+          printf("\n Not found : ");
         }
-        printf("\n Found at location= %d", result+1);
+        else
+        {
+          printf("\n Found at location= %d", result+1);
+        }
         break;
       
       case 2: 
