@@ -1,66 +1,80 @@
-# C Project - Academic Project
+# C Programming Academic Project
 
 ## Overview
+This repository contains C programs developed as part of an academic project for the Computer Engineering course at BL Patil Polytechnic Khopoli. The project focuses on fundamental concepts of C programming, including array manipulation, data structures, algorithms, and more.
 
-This repository contains a C project developed as part of an academic exercise. The project showcases fundamental programming concepts in C, including data structures, algorithms, and file handling. The purpose of this project is to demonstrate the practical application of theoretical knowledge acquired during coursework.
+## Table of Contents
+- [Introduction](#introduction)
+- [Programs](#programs)
+  - [Array Manipulation](#array-manipulation)
+  - [Binary Search Algorithm](#binary-search-algorithm)
+  - [Other Programs](#other-programs)
+- [How to Run](#how-to-run)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Features
+## Introduction
+This project showcases various C programs written to demonstrate core concepts in computer engineering. Each program is well-documented and includes comments to help understand the code's logic and purpose.
 
-- **Sorting Algorithms**: Implementation of various sorting techniques such as Bubble Sort, Selection Sort, and Insertion Sort.
-- **File Handling**: Reading from and writing to files to manage data storage and retrieval.
-- **Data Structures**: Usage of arrays, structures, and pointers to manage and manipulate data efficiently.
-- **User Interaction**: Command-line interface that allows users to interact with the program, input data, and view results.
+## Programs
 
-## File Structure
+### Array Manipulation
+This program demonstrates basic operations on arrays, such as:
+- **Create**: Initialize an array with user-defined elements.
+- **Insert**: Add an element at a specific position in the array.
+- **Delete**: Remove an element from the array.
+- **Display**: Show the elements of the array.
 
-- **main.c**: The main file that contains the entry point of the program. It initializes the program and provides a menu-driven interface for the user.
-- **sorting.c**: Contains the implementation of different sorting algorithms.
-- **file_handling.c**: Manages the file operations, including reading from and writing to files.
-- **data_structures.c**: Implements various data structures used in the project.
-- **Makefile**: A makefile to compile the project easily.
+You can find the program under `array_manipulation.c` in the repository.
 
-## How to Compile and Run
+### Binary Search Algorithm
+A classic implementation of the binary search algorithm with improvements to handle edge cases. The program efficiently finds the position of an element in a sorted array.
 
-### Prerequisites
+You can find the program under `binary_search.c` in the repository.
 
-- GCC compiler installed on your system.
-- Basic understanding of the command line interface.
+### Other Programs
+Additional C programs may include:
+- **Sorting Algorithms**: Implementations of various sorting techniques.
+- **Linked Lists**: Basic operations on linked lists.
+- **Stacks and Queues**: Implementation of stack and queue data structures.
 
-### Compilation
+Please explore the repository for more examples.
 
-To compile the project, navigate to the project directory and use the following command:
+## How to Run
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Pras7616533/Academic_Project.git
+    ```
+2. Navigate to the C project directory:
+    ```bash
+    cd Academic_Project/C_project
+    ```
+3. Compile the program using GCC:
+    ```bash
+    gcc array_manipulation.c -o array_manipulation
+    ```
+4. Run the compiled program:
+    ```bash
+    ./array_manipulation
+    ```
 
-```bash
-gcc -o project main.c sorting.c file_handling.c data_structures.c
-```
+Repeat the above steps for any other programs you wish to run.
 
-Alternatively, if a `Makefile` is provided, simply run:
+## Project Structure
+The project directory is organized as follows:
 
-```bash
-make
-```
+/C_project
+    
+    |-- array_manipulation.c
+    |-- binary_search.c
+    |-- sorting_algorithms.c
+    |-- linked_list.c
+    |-- README.md
 
-### Running the Program
 
-After compilation, run the program using:
-
-```bash
-./project
-```
-
-### Usage
-
-The program is menu-driven and will prompt the user to select various operations. Follow the on-screen instructions to perform different tasks such as sorting, file operations, and data manipulation.
-
-## Contribution
-
-Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request. Ensure that your code follows the established coding conventions and includes comments where necessary.
+## Contributing
+Contributions to this project are welcome. If you have suggestions for improving the code or adding new programs, feel free to create a pull request.
 
 ## License
-
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Acknowledgements
-
-- Special thanks to the academic institution and the instructors for providing the opportunity to work on this project.
-- Thanks to all contributors who helped in improving and testing the project.
