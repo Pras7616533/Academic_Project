@@ -85,7 +85,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 For any questions, suggestions, or feedback, you can reach me at:
-- **Email**: [Prashant K Deshmukh](prashdesh555@gmail.com)
+- **Email**: [Prashant K Deshmukh](mailto:prashdesh555@gmail.com)
 - **GitHub**: [Pras7616533](https://github.com/Pras7616533)
 
 Thank you for exploring my academic project repository!
