@@ -37,7 +37,7 @@ int main() {
         printf("5. Search\n");
         printf("6. Delete\n");
         printf("7. Display\n");
-        printf("8. Exit\n");
+        printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
         
@@ -63,7 +63,7 @@ int main() {
             case 7:
                 display();
                 break;
-            case 8:
+            case 0:
                 exit(0);
             default:
                 printf("Invalid choice! Please try again.\n");
